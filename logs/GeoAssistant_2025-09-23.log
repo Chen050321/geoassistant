@@ -1,0 +1,333 @@
+2025-09-23 16:09:57 - GeoAssistant - INFO - ================================================================================
+2025-09-23 16:09:57 - GeoAssistant - INFO - GeoAssistant 插件启动
+2025-09-23 16:09:57 - GeoAssistant - INFO - 日志文件: C:\Users/chenj/AppData/Roaming/QGIS/QGIS3\profiles\default/python/plugins\geoassistant\logs\GeoAssistant_2025-09-23.log
+2025-09-23 16:09:57 - GeoAssistant - INFO - ================================================================================
+2025-09-23 16:10:12 - GeoAssistant - INFO - ================================================================================
+2025-09-23 16:10:12 - GeoAssistant - INFO - GeoAssistant 插件启动
+2025-09-23 16:10:12 - GeoAssistant - INFO - 日志文件: C:\Users/chenj/AppData/Roaming/QGIS/QGIS3\profiles\default/python/plugins\geoassistant\logs\GeoAssistant_2025-09-23.log
+2025-09-23 16:10:12 - GeoAssistant - INFO - ================================================================================
+2025-09-23 16:10:34 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 16:10:34 - GeoAssistant.Agent - INFO - [AI返回内容] 用户Query: 你是谁？
+2025-09-23 16:10:34 - GeoAssistant.Agent - INFO - [AI原始JSON] {
+  "requires_tools": false,
+  "direct_response": "我是您的AI助手，专门帮助处理GIS地理空间分析任务。我可以帮您操作QGIS工程中的图层、创建缓冲区、进行空间叠加分析等。",
+  "thought": "这是一个询问身份的问题，不需要使用任何工具，直接回答介绍自己的功能和用途即可。
+2025-09-23 16:10:34 - GeoAssistant.Agent - INFO - [AI完整response对象] ChatCompletion(id='chatcmpl-315119cc-5300-4c4f-83ef-fd1bc9861269', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='{\n  "requires_tools": false,\n  "direct_response": "我是您的AI助手，专门帮助处理GIS地理空间分析任务。我可以帮您操作QGIS工程中的图层、创建缓冲区、进行空间叠加分析等。",\n  "thought": "这是一个询问身份的问题，不需要使用任何工具，直接回答介绍自己的功能和用途即可。', refusal=None, role='assistant', annotations=None, audio=None, function_call=None, tool_calls=None))], created=1758615035, model='deepseek-v3.1', object='chat.completion', service_tier=None, system_fingerprint=None, usage=CompletionUsage(completion_tokens=74, prompt_tokens=3387, total_tokens=3461, completion_tokens_details=None, prompt_tokens_details=None))
+2025-09-23 16:10:34 - GeoAssistant.Agent - INFO - [AI决策] 用户Query: 你是谁？
+2025-09-23 16:10:34 - GeoAssistant.Agent - INFO - [AI计划JSON] {
+  "requires_tools": false,
+  "direct_response": "解析响应时出错: Unterminated string starting at: line 4 column 14 (char 128)",
+  "thought": "模型返回了无效的JSON格式"
+}
+2025-09-23 16:10:34 - GeoAssistant.Agent - INFO - [AI思考] 模型返回了无效的JSON格式
+2025-09-23 16:10:45 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 16:10:45 - GeoAssistant.Agent - INFO - [AI返回内容] 用户Query: 你是谁？
+2025-09-23 16:10:45 - GeoAssistant.Agent - INFO - [AI原始JSON] {
+  "requires_tools": false,
+  "direct_response": "我是您的AI助手，专门帮助处理GIS地理空间分析任务。我可以帮您操作QGIS工程中的图层、创建缓冲区、进行空间叠加分析等。",
+  "thought": "这是一个简单的自我介绍问题，不需要使用任何工具，直接回答即可。"
+}
+2025-09-23 16:10:45 - GeoAssistant.Agent - INFO - [AI完整response对象] ChatCompletion(id='chatcmpl-fbb37ad4-0ccc-47a0-a6b4-5b4d3caecfa1', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='{\n  "requires_tools": false,\n  "direct_response": "我是您的AI助手，专门帮助处理GIS地理空间分析任务。我可以帮您操作QGIS工程中的图层、创建缓冲区、进行空间叠加分析等。",\n  "thought": "这是一个简单的自我介绍问题，不需要使用任何工具，直接回答即可。"\n}', refusal=None, role='assistant', annotations=None, audio=None, function_call=None, tool_calls=None))], created=1758615046, model='deepseek-v3.1', object='chat.completion', service_tier=None, system_fingerprint=None, usage=CompletionUsage(completion_tokens=71, prompt_tokens=3387, total_tokens=3458, completion_tokens_details=None, prompt_tokens_details=None))
+2025-09-23 16:10:45 - GeoAssistant.Agent - INFO - [AI决策] 用户Query: 你是谁？
+2025-09-23 16:10:45 - GeoAssistant.Agent - INFO - [AI计划JSON] {
+  "requires_tools": false,
+  "direct_response": "我是您的AI助手，专门帮助处理GIS地理空间分析任务。我可以帮您操作QGIS工程中的图层、创建缓冲区、进行空间叠加分析等。",
+  "thought": "这是一个简单的自我介绍问题，不需要使用任何工具，直接回答即可。"
+}
+2025-09-23 16:10:45 - GeoAssistant.Agent - INFO - [AI思考] 这是一个简单的自我介绍问题，不需要使用任何工具，直接回答即可。
+2025-09-23 16:10:57 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 16:10:57 - GeoAssistant.Agent - INFO - [AI返回内容] 用户Query: 列出当前工程中的所有图层
+2025-09-23 16:10:57 - GeoAssistant.Agent - INFO - [AI原始JSON] {
+  "requires_tools": true,
+  "thought": "用户要求列出当前工程中的所有图层，这需要使用list_project_layers工具来获取图层信息",
+  "plan": [
+    "调用list_project_layers工具获取当前工程中的图层列表"
+  ],
+  "tool_calls": [
+    {
+      "tool": "list_project_layers",
+      "args": {}
+    }
+  ]
+
+2025-09-23 16:10:57 - GeoAssistant.Agent - INFO - [AI完整response对象] ChatCompletion(id='chatcmpl-24a4247a-61b7-45a9-9dfe-81a84c37ecf8', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='{\n  "requires_tools": true,\n  "thought": "用户要求列出当前工程中的所有图层，这需要使用list_project_layers工具来获取图层信息",\n  "plan": [\n    "调用list_project_layers工具获取当前工程中的图层列表"\n  ],\n  "tool_calls": [\n    {\n      "tool": "list_project_layers",\n      "args": {}\n    }\n  ]\n', refusal=None, role='assistant', annotations=None, audio=None, function_call=None, tool_calls=None))], created=1758615058, model='deepseek-v3.1', object='chat.completion', service_tier=None, system_fingerprint=None, usage=CompletionUsage(completion_tokens=86, prompt_tokens=3390, total_tokens=3476, completion_tokens_details=None, prompt_tokens_details=None))
+2025-09-23 16:10:57 - GeoAssistant.Agent - INFO - [AI决策] 用户Query: 列出当前工程中的所有图层
+2025-09-23 16:10:57 - GeoAssistant.Agent - INFO - [AI计划JSON] {
+  "requires_tools": false,
+  "direct_response": "解析响应时出错: Expecting ',' delimiter: line 13 column 1 (char 242)",
+  "thought": "模型返回了无效的JSON格式"
+}
+2025-09-23 16:10:57 - GeoAssistant.Agent - INFO - [AI思考] 模型返回了无效的JSON格式
+2025-09-23 16:11:06 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 16:11:06 - GeoAssistant.Agent - INFO - [AI返回内容] 用户Query: 列出当前工程中的所有图层
+2025-09-23 16:11:06 - GeoAssistant.Agent - INFO - [AI原始JSON] {
+  "requires_tools": true,
+  "thought": "用户要求列出当前工程中的所有图层，这需要使用list_project_layers工具来获取图层信息",
+  "plan": [
+    "调用list_project_layers工具获取当前工程中的所有图层列表"
+  ],
+  "tool_calls": [
+    {
+      "tool": "list_project_layers",
+      "args": {}
+    }
+  ]
+2025-09-23 16:11:06 - GeoAssistant.Agent - INFO - [AI完整response对象] ChatCompletion(id='chatcmpl-2656ffc9-b490-4cd5-9541-f29337076db2', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='{\n  "requires_tools": true,\n  "thought": "用户要求列出当前工程中的所有图层，这需要使用list_project_layers工具来获取图层信息",\n  "plan": [\n    "调用list_project_layers工具获取当前工程中的所有图层列表"\n  ],\n  "tool_calls": [\n    {\n      "tool": "list_project_layers",\n      "args": {}\n    }\n  ]', refusal=None, role='assistant', annotations=None, audio=None, function_call=None, tool_calls=None))], created=1758615066, model='deepseek-v3.1', object='chat.completion', service_tier=None, system_fingerprint=None, usage=CompletionUsage(completion_tokens=86, prompt_tokens=3390, total_tokens=3476, completion_tokens_details=None, prompt_tokens_details=None))
+2025-09-23 16:11:06 - GeoAssistant.Agent - INFO - [AI决策] 用户Query: 列出当前工程中的所有图层
+2025-09-23 16:11:06 - GeoAssistant.Agent - INFO - [AI计划JSON] {
+  "requires_tools": false,
+  "direct_response": "解析响应时出错: Expecting ',' delimiter: line 12 column 4 (char 243)",
+  "thought": "模型返回了无效的JSON格式"
+}
+2025-09-23 16:11:06 - GeoAssistant.Agent - INFO - [AI思考] 模型返回了无效的JSON格式
+2025-09-23 16:11:24 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 16:11:24 - GeoAssistant.Agent - INFO - [AI返回内容] 用户Query: 列出当前工程中的所有图层
+2025-09-23 16:11:24 - GeoAssistant.Agent - INFO - [AI原始JSON] {
+  "requires_tools": true,
+  "thought": "用户要求列出当前工程中的所有图层，这需要使用list_project_layers工具来获取图层信息",
+  "plan": [
+    "调用list_project_layers工具获取工程中的图层列表"
+  ],
+  "tool_calls": [
+    {
+      "tool": "list_project_layers",
+      "args": {}
+    }
+  ]
+
+2025-09-23 16:11:24 - GeoAssistant.Agent - INFO - [AI完整response对象] ChatCompletion(id='chatcmpl-524bd62e-1c56-404f-9396-ee0ff5dc864b', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='{\n  "requires_tools": true,\n  "thought": "用户要求列出当前工程中的所有图层，这需要使用list_project_layers工具来获取图层信息",\n  "plan": [\n    "调用list_project_layers工具获取工程中的图层列表"\n  ],\n  "tool_calls": [\n    {\n      "tool": "list_project_layers",\n      "args": {}\n    }\n  ]\n', refusal=None, role='assistant', annotations=None, audio=None, function_call=None, tool_calls=None))], created=1758615085, model='deepseek-v3.1', object='chat.completion', service_tier=None, system_fingerprint=None, usage=CompletionUsage(completion_tokens=85, prompt_tokens=3390, total_tokens=3475, completion_tokens_details=None, prompt_tokens_details=None))
+2025-09-23 16:11:24 - GeoAssistant.Agent - INFO - [AI决策] 用户Query: 列出当前工程中的所有图层
+2025-09-23 16:11:24 - GeoAssistant.Agent - INFO - [AI计划JSON] {
+  "requires_tools": false,
+  "direct_response": "解析响应时出错: Expecting ',' delimiter: line 13 column 1 (char 240)",
+  "thought": "模型返回了无效的JSON格式"
+}
+2025-09-23 16:11:24 - GeoAssistant.Agent - INFO - [AI思考] 模型返回了无效的JSON格式
+2025-09-23 16:11:30 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 16:11:30 - GeoAssistant.Agent - INFO - [AI返回内容] 用户Query: 列出当前工程中的所有图层
+2025-09-23 16:11:30 - GeoAssistant.Agent - INFO - [AI原始JSON] {
+  "requires_tools": true,
+  "thought": "用户需要获取当前工程中的图层列表，这需要使用list_project_layers工具来获取图层信息",
+  "plan": [
+    "调用list_project_layers工具获取图层信息"
+  ],
+  "tool_calls": [
+    {
+      "tool": "list_project_layers",
+      "args": {}
+    }
+  ]
+
+2025-09-23 16:11:30 - GeoAssistant.Agent - INFO - [AI完整response对象] ChatCompletion(id='chatcmpl-2020206b-7dfa-4701-a8e2-2d108231e955', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='{\n  "requires_tools": true,\n  "thought": "用户需要获取当前工程中的图层列表，这需要使用list_project_layers工具来获取图层信息",\n  "plan": [\n    "调用list_project_layers工具获取图层信息"\n  ],\n  "tool_calls": [\n    {\n      "tool": "list_project_layers",\n      "args": {}\n    }\n  ]\n', refusal=None, role='assistant', annotations=None, audio=None, function_call=None, tool_calls=None))], created=1758615090, model='deepseek-v3.1', object='chat.completion', service_tier=None, system_fingerprint=None, usage=CompletionUsage(completion_tokens=84, prompt_tokens=3390, total_tokens=3474, completion_tokens_details=None, prompt_tokens_details=None))
+2025-09-23 16:11:30 - GeoAssistant.Agent - INFO - [AI决策] 用户Query: 列出当前工程中的所有图层
+2025-09-23 16:11:30 - GeoAssistant.Agent - INFO - [AI计划JSON] {
+  "requires_tools": false,
+  "direct_response": "解析响应时出错: Expecting ',' delimiter: line 13 column 1 (char 236)",
+  "thought": "模型返回了无效的JSON格式"
+}
+2025-09-23 16:11:30 - GeoAssistant.Agent - INFO - [AI思考] 模型返回了无效的JSON格式
+2025-09-23 16:11:39 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 16:11:39 - GeoAssistant.Agent - INFO - [AI返回内容] 用户Query: 列出当前工程中的所有图层
+2025-09-23 16:11:39 - GeoAssistant.Agent - INFO - [AI原始JSON] {
+  "requires_tools": true,
+  "thought": "用户需要获取当前工程中的所有图层列表，这需要使用list_project_layers工具来满足需求",
+  "plan": [
+    "调用list_project_layers工具获取图层信息"
+  ],
+  "tool_calls": [
+    {
+      "tool": "list_project_layers",
+      "args": {}
+    }
+  ]
+}
+2025-09-23 16:11:39 - GeoAssistant.Agent - INFO - [AI完整response对象] ChatCompletion(id='chatcmpl-42fb348f-7c77-4106-8e4a-452cbf37082a', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='{\n  "requires_tools": true,\n  "thought": "用户需要获取当前工程中的所有图层列表，这需要使用list_project_layers工具来满足需求",\n  "plan": [\n    "调用list_project_layers工具获取图层信息"\n  ],\n  "tool_calls": [\n    {\n      "tool": "list_project_layers",\n      "args": {}\n    }\n  ]\n}', refusal=None, role='assistant', annotations=None, audio=None, function_call=None, tool_calls=None))], created=1758615100, model='deepseek-v3.1', object='chat.completion', service_tier=None, system_fingerprint=None, usage=CompletionUsage(completion_tokens=84, prompt_tokens=3390, total_tokens=3474, completion_tokens_details=None, prompt_tokens_details=None))
+2025-09-23 16:11:39 - GeoAssistant.Agent - INFO - [AI决策] 用户Query: 列出当前工程中的所有图层
+2025-09-23 16:11:39 - GeoAssistant.Agent - INFO - [AI计划JSON] {
+  "requires_tools": true,
+  "thought": "用户需要获取当前工程中的所有图层列表，这需要使用list_project_layers工具来满足需求",
+  "plan": [
+    "调用list_project_layers工具获取图层信息"
+  ],
+  "tool_calls": [
+    {
+      "tool": "list_project_layers",
+      "args": {}
+    }
+  ]
+}
+2025-09-23 16:11:39 - GeoAssistant.Agent - INFO - [AI思考] 用户需要获取当前工程中的所有图层列表，这需要使用list_project_layers工具来满足需求
+2025-09-23 16:28:02 - GeoAssistant - INFO - ================================================================================
+2025-09-23 16:28:02 - GeoAssistant - INFO - GeoAssistant 插件启动
+2025-09-23 16:28:02 - GeoAssistant - INFO - 日志文件: C:\Users/chenj/AppData/Roaming/QGIS/QGIS3\profiles\default/python/plugins\geoassistant\logs\GeoAssistant_2025-09-23.log
+2025-09-23 16:28:02 - GeoAssistant - INFO - ================================================================================
+2025-09-23 16:28:08 - GeoAssistant - INFO - ================================================================================
+2025-09-23 16:28:08 - GeoAssistant - INFO - GeoAssistant 插件启动
+2025-09-23 16:28:08 - GeoAssistant - INFO - 日志文件: C:\Users/chenj/AppData/Roaming/QGIS/QGIS3\profiles\default/python/plugins\geoassistant\logs\GeoAssistant_2025-09-23.log
+2025-09-23 16:28:08 - GeoAssistant - INFO - ================================================================================
+2025-09-23 16:28:28 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 16:28:28 - GeoAssistant.Agent - INFO - [AI返回内容] 用户Query: 你是谁？
+2025-09-23 16:28:28 - GeoAssistant.Agent - INFO - [AI原始JSON] {
+  "requires_tools": false,
+  "direct_response": "我是您的GIS助手，专门帮助您处理地理空间分析任务，包括图层管理、缓冲区分析、矢量叠加等操作。请问有什么可以帮您的？",
+  "thought": "用户询问我的身份，这是一个简单的自我介绍问题，不需要使用任何工具，直接回复即可。
+2025-09-23 16:28:28 - GeoAssistant.Agent - INFO - [AI完整response对象] ChatCompletion(id='chatcmpl-eca722e1-9cd8-4a3f-ac11-72e627f4ecf6', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='{\n  "requires_tools": false,\n  "direct_response": "我是您的GIS助手，专门帮助您处理地理空间分析任务，包括图层管理、缓冲区分析、矢量叠加等操作。请问有什么可以帮您的？",\n  "thought": "用户询问我的身份，这是一个简单的自我介绍问题，不需要使用任何工具，直接回复即可。', refusal=None, role='assistant', annotations=None, audio=None, function_call=None, tool_calls=None))], created=1758616108, model='deepseek-v3.1', object='chat.completion', service_tier=None, system_fingerprint=None, usage=CompletionUsage(completion_tokens=74, prompt_tokens=4314, total_tokens=4388, completion_tokens_details=None, prompt_tokens_details=None))
+2025-09-23 16:28:28 - GeoAssistant.Agent - INFO - [AI决策] 用户Query: 你是谁？
+2025-09-23 16:28:28 - GeoAssistant.Agent - INFO - [AI计划JSON] {
+  "requires_tools": false,
+  "direct_response": "解析响应时出错: Unterminated string starting at: line 4 column 14 (char 125)",
+  "thought": "模型返回了无效的JSON格式"
+}
+2025-09-23 16:28:28 - GeoAssistant.Agent - INFO - [AI思考] 模型返回了无效的JSON格式
+2025-09-23 16:28:37 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 16:28:37 - GeoAssistant.Agent - INFO - [AI返回内容] 用户Query: 你是谁？
+2025-09-23 16:28:37 - GeoAssistant.Agent - INFO - [AI原始JSON] {
+  "requires_tools": false,
+  "direct_response": "我是您的AI助手，专门帮助您处理GIS地理空间分析任务，包括地图图层管理、缓冲区分析、矢量叠加分析等操作。",
+  "thought": "这是一个简单的自我介绍问题，不需要使用任何工具，直接回答即可。"
+}
+2025-09-23 16:28:37 - GeoAssistant.Agent - INFO - [AI完整response对象] ChatCompletion(id='chatcmpl-bcbb4856-c89c-426a-b801-04338ce8645d', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='{\n  "requires_tools": false,\n  "direct_response": "我是您的AI助手，专门帮助您处理GIS地理空间分析任务，包括地图图层管理、缓冲区分析、矢量叠加分析等操作。",\n  "thought": "这是一个简单的自我介绍问题，不需要使用任何工具，直接回答即可。"\n}', refusal=None, role='assistant', annotations=None, audio=None, function_call=None, tool_calls=None))], created=1758616118, model='deepseek-v3.1', object='chat.completion', service_tier=None, system_fingerprint=None, usage=CompletionUsage(completion_tokens=67, prompt_tokens=4314, total_tokens=4381, completion_tokens_details=None, prompt_tokens_details=None))
+2025-09-23 16:28:37 - GeoAssistant.Agent - INFO - [AI决策] 用户Query: 你是谁？
+2025-09-23 16:28:37 - GeoAssistant.Agent - INFO - [AI计划JSON] {
+  "requires_tools": false,
+  "direct_response": "我是您的AI助手，专门帮助您处理GIS地理空间分析任务，包括地图图层管理、缓冲区分析、矢量叠加分析等操作。",
+  "thought": "这是一个简单的自我介绍问题，不需要使用任何工具，直接回答即可。"
+}
+2025-09-23 16:28:37 - GeoAssistant.Agent - INFO - [AI思考] 这是一个简单的自我介绍问题，不需要使用任何工具，直接回答即可。
+2025-09-23 16:30:05 - GeoAssistant - INFO - ================================================================================
+2025-09-23 16:30:05 - GeoAssistant - INFO - GeoAssistant 插件启动
+2025-09-23 16:30:05 - GeoAssistant - INFO - 日志文件: C:\Users/chenj/AppData/Roaming/QGIS/QGIS3\profiles\default/python/plugins\geoassistant\logs\GeoAssistant_2025-09-23.log
+2025-09-23 16:30:05 - GeoAssistant - INFO - ================================================================================
+2025-09-23 16:30:11 - GeoAssistant - INFO - ================================================================================
+2025-09-23 16:30:11 - GeoAssistant - INFO - GeoAssistant 插件启动
+2025-09-23 16:30:11 - GeoAssistant - INFO - 日志文件: C:\Users/chenj/AppData/Roaming/QGIS/QGIS3\profiles\default/python/plugins\geoassistant\logs\GeoAssistant_2025-09-23.log
+2025-09-23 16:30:11 - GeoAssistant - INFO - ================================================================================
+2025-09-23 16:30:40 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 16:30:40 - GeoAssistant.Agent - INFO - [AI返回内容] 用户Query: 你是谁？
+2025-09-23 16:30:40 - GeoAssistant.Agent - INFO - [AI原始JSON] {
+  "requires_tools": false,
+  "direct_response": "我是您的GIS助手，专门帮助您处理地理空间分析任务，比如创建缓冲区、叠加分析和栅格处理等。",
+  "thought": "这是一个简单的自我介绍问题，不需要使用任何工具，直接回答即可。
+2025-09-23 16:30:40 - GeoAssistant.Agent - INFO - [AI完整response对象] ChatCompletion(id='chatcmpl-39c99b44-e71b-4c43-ad33-b7744c91ce7e', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='{\n  "requires_tools": false,\n  "direct_response": "我是您的GIS助手，专门帮助您处理地理空间分析任务，比如创建缓冲区、叠加分析和栅格处理等。",\n  "thought": "这是一个简单的自我介绍问题，不需要使用任何工具，直接回答即可。', refusal=None, role='assistant', annotations=None, audio=None, function_call=None, tool_calls=None))], created=1758616241, model='deepseek-v3.1', object='chat.completion', service_tier=None, system_fingerprint=None, usage=CompletionUsage(completion_tokens=62, prompt_tokens=4314, total_tokens=4376, completion_tokens_details=None, prompt_tokens_details=None))
+2025-09-23 16:30:40 - GeoAssistant.Agent - INFO - [AI决策] 用户Query: 你是谁？
+2025-09-23 16:30:40 - GeoAssistant.Agent - INFO - [AI计划JSON] {
+  "requires_tools": false,
+  "direct_response": "解析响应时出错: Unterminated string starting at: line 4 column 14 (char 112)",
+  "thought": "模型返回了无效的JSON格式"
+}
+2025-09-23 16:30:40 - GeoAssistant.Agent - INFO - [AI思考] 模型返回了无效的JSON格式
+2025-09-23 16:30:47 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 16:30:47 - GeoAssistant.Agent - INFO - [AI返回内容] 用户Query: 你是谁？
+2025-09-23 16:30:47 - GeoAssistant.Agent - INFO - [AI原始JSON] {
+  "requires_tools": false,
+  "direct_response": "我是您的AI助手，专门帮助处理GIS地理空间分析任务。我可以协助您进行地图图层管理、缓冲区分析、矢量叠加、栅格重采样等操作。",
+  "thought": "这是一个简单的自我介绍问题，不需要使用任何工具，直接回答即可。"
+}
+2025-09-23 16:30:47 - GeoAssistant.Agent - INFO - [AI完整response对象] ChatCompletion(id='chatcmpl-a8524d5e-e911-4002-b91b-5b5b571bd826', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='{\n  "requires_tools": false,\n  "direct_response": "我是您的AI助手，专门帮助处理GIS地理空间分析任务。我可以协助您进行地图图层管理、缓冲区分析、矢量叠加、栅格重采样等操作。",\n  "thought": "这是一个简单的自我介绍问题，不需要使用任何工具，直接回答即可。"\n}', refusal=None, role='assistant', annotations=None, audio=None, function_call=None, tool_calls=None))], created=1758616248, model='deepseek-v3.1', object='chat.completion', service_tier=None, system_fingerprint=None, usage=CompletionUsage(completion_tokens=73, prompt_tokens=4314, total_tokens=4387, completion_tokens_details=None, prompt_tokens_details=None))
+2025-09-23 16:30:47 - GeoAssistant.Agent - INFO - [AI决策] 用户Query: 你是谁？
+2025-09-23 16:30:47 - GeoAssistant.Agent - INFO - [AI计划JSON] {
+  "requires_tools": false,
+  "direct_response": "我是您的AI助手，专门帮助处理GIS地理空间分析任务。我可以协助您进行地图图层管理、缓冲区分析、矢量叠加、栅格重采样等操作。",
+  "thought": "这是一个简单的自我介绍问题，不需要使用任何工具，直接回答即可。"
+}
+2025-09-23 16:30:47 - GeoAssistant.Agent - INFO - [AI思考] 这是一个简单的自我介绍问题，不需要使用任何工具，直接回答即可。
+2025-09-23 16:30:58 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 16:30:58 - GeoAssistant.Agent - INFO - [AI返回内容] 用户Query: 列出当前工程中的所有图层
+2025-09-23 16:30:58 - GeoAssistant.Agent - INFO - [AI原始JSON] {
+  "requires_tools": true,
+  "thought": "用户需要获取当前工程中的所有图层列表，这需要使用list_project_layers工具来获取图层信息。",
+  "plan": [
+    "调用list_project_layers工具获取图层信息"
+  ],
+  "tool_calls": [
+    {
+      "tool": "list_project_layers",
+      "args": {}
+    }
+  ]
+
+2025-09-23 16:30:58 - GeoAssistant.Agent - INFO - [AI完整response对象] ChatCompletion(id='chatcmpl-5bbfb4b6-9a1e-44a6-a257-cb6b095b7c6e', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='{\n  "requires_tools": true,\n  "thought": "用户需要获取当前工程中的所有图层列表，这需要使用list_project_layers工具来获取图层信息。",\n  "plan": [\n    "调用list_project_layers工具获取图层信息"\n  ],\n  "tool_calls": [\n    {\n      "tool": "list_project_layers",\n      "args": {}\n    }\n  ]\n', refusal=None, role='assistant', annotations=None, audio=None, function_call=None, tool_calls=None))], created=1758616259, model='deepseek-v3.1', object='chat.completion', service_tier=None, system_fingerprint=None, usage=CompletionUsage(completion_tokens=85, prompt_tokens=4317, total_tokens=4402, completion_tokens_details=None, prompt_tokens_details=None))
+2025-09-23 16:30:58 - GeoAssistant.Agent - INFO - [AI决策] 用户Query: 列出当前工程中的所有图层
+2025-09-23 16:30:58 - GeoAssistant.Agent - INFO - [AI计划JSON] {
+  "requires_tools": false,
+  "direct_response": "解析响应时出错: Expecting ',' delimiter: line 13 column 1 (char 239)",
+  "thought": "模型返回了无效的JSON格式"
+}
+2025-09-23 16:30:58 - GeoAssistant.Agent - INFO - [AI思考] 模型返回了无效的JSON格式
+2025-09-23 16:31:04 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 16:31:04 - GeoAssistant.Agent - INFO - [AI返回内容] 用户Query: 列出当前工程中的所有图层
+2025-09-23 16:31:04 - GeoAssistant.Agent - INFO - [AI原始JSON] {
+  "requires_tools": true,
+  "thought": "用户要求列出当前工程中的所有图层，这需要使用list_project_layers工具来获取图层信息",
+  "plan": [
+    "调用list_project_layers工具获取当前工程中的图层列表"
+  ],
+  "tool_calls": [
+    {
+      "tool": "list_project_layers",
+      "args": {}
+    }
+  ]
+
+2025-09-23 16:31:04 - GeoAssistant.Agent - INFO - [AI完整response对象] ChatCompletion(id='chatcmpl-c6f59a64-338f-4a2e-a351-352e814dd8a3', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='{\n  "requires_tools": true,\n  "thought": "用户要求列出当前工程中的所有图层，这需要使用list_project_layers工具来获取图层信息",\n  "plan": [\n    "调用list_project_layers工具获取当前工程中的图层列表"\n  ],\n  "tool_calls": [\n    {\n      "tool": "list_project_layers",\n      "args": {}\n    }\n  ]\n', refusal=None, role='assistant', annotations=None, audio=None, function_call=None, tool_calls=None))], created=1758616265, model='deepseek-v3.1', object='chat.completion', service_tier=None, system_fingerprint=None, usage=CompletionUsage(completion_tokens=86, prompt_tokens=4317, total_tokens=4403, completion_tokens_details=None, prompt_tokens_details=None))
+2025-09-23 16:31:04 - GeoAssistant.Agent - INFO - [AI决策] 用户Query: 列出当前工程中的所有图层
+2025-09-23 16:31:04 - GeoAssistant.Agent - INFO - [AI计划JSON] {
+  "requires_tools": false,
+  "direct_response": "解析响应时出错: Expecting ',' delimiter: line 13 column 1 (char 242)",
+  "thought": "模型返回了无效的JSON格式"
+}
+2025-09-23 16:31:04 - GeoAssistant.Agent - INFO - [AI思考] 模型返回了无效的JSON格式
+2025-09-23 16:31:11 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 16:31:11 - GeoAssistant.Agent - INFO - [AI返回内容] 用户Query: 列出当前工程中的所有图层
+2025-09-23 16:31:11 - GeoAssistant.Agent - INFO - [AI原始JSON] {
+  "requires_tools": true,
+  "thought": "用户需要获取当前QGIS工程中的所有图层列表，这需要使用list_project_layers工具来获取图层信息",
+  "plan": [
+    "调用list_project_layers工具获取工程中的图层列表"
+  ],
+  "tool_calls": [
+    {
+      "tool": "list_project_layers",
+      "args": {}
+    }
+  ]
+
+2025-09-23 16:31:11 - GeoAssistant.Agent - INFO - [AI完整response对象] ChatCompletion(id='chatcmpl-902a4108-92c3-4116-acfb-985433ec5356', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='{\n  "requires_tools": true,\n  "thought": "用户需要获取当前QGIS工程中的所有图层列表，这需要使用list_project_layers工具来获取图层信息",\n  "plan": [\n    "调用list_project_layers工具获取工程中的图层列表"\n  ],\n  "tool_calls": [\n    {\n      "tool": "list_project_layers",\n      "args": {}\n    }\n  ]\n', refusal=None, role='assistant', annotations=None, audio=None, function_call=None, tool_calls=None))], created=1758616272, model='deepseek-v3.1', object='chat.completion', service_tier=None, system_fingerprint=None, usage=CompletionUsage(completion_tokens=88, prompt_tokens=4317, total_tokens=4405, completion_tokens_details=None, prompt_tokens_details=None))
+2025-09-23 16:31:11 - GeoAssistant.Agent - INFO - [AI决策] 用户Query: 列出当前工程中的所有图层
+2025-09-23 16:31:11 - GeoAssistant.Agent - INFO - [AI计划JSON] {
+  "requires_tools": false,
+  "direct_response": "解析响应时出错: Expecting ',' delimiter: line 13 column 1 (char 246)",
+  "thought": "模型返回了无效的JSON格式"
+}
+2025-09-23 16:31:11 - GeoAssistant.Agent - INFO - [AI思考] 模型返回了无效的JSON格式
+2025-09-23 16:32:22 - httpx - INFO - HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 16:32:22 - GeoAssistant.Agent - INFO - [AI返回内容] 用户Query: 列出当前工程中的所有图层
+2025-09-23 16:32:22 - GeoAssistant.Agent - INFO - [AI原始JSON] {
+  "requires_tools": true,
+  "thought": "用户需要获取当前工程中的所有图层列表，这需要使用list_project_layers工具来获取图层信息",
+  "plan": [
+    "调用list_project_layers工具获取工程中的图层列表"
+  ],
+  "tool_calls": [
+    {
+      "tool": "list_project_layers",
+      "args": {}
+    }
+  ]
+}
+2025-09-23 16:32:22 - GeoAssistant.Agent - INFO - [AI完整response对象] ChatCompletion(id='chatcmpl-03fde2ee-60a6-4493-98e4-42c270218d46', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='{\n  "requires_tools": true,\n  "thought": "用户需要获取当前工程中的所有图层列表，这需要使用list_project_layers工具来获取图层信息",\n  "plan": [\n    "调用list_project_layers工具获取工程中的图层列表"\n  ],\n  "tool_calls": [\n    {\n      "tool": "list_project_layers",\n      "args": {}\n    }\n  ]\n}', refusal=None, role='assistant', annotations=None, audio=None, function_call=None, tool_calls=None))], created=1758616343, model='deepseek-v3.1', object='chat.completion', service_tier=None, system_fingerprint=None, usage=CompletionUsage(completion_tokens=87, prompt_tokens=4317, total_tokens=4404, completion_tokens_details=None, prompt_tokens_details=None))
+2025-09-23 16:32:22 - GeoAssistant.Agent - INFO - [AI决策] 用户Query: 列出当前工程中的所有图层
+2025-09-23 16:32:22 - GeoAssistant.Agent - INFO - [AI计划JSON] {
+  "requires_tools": true,
+  "thought": "用户需要获取当前工程中的所有图层列表，这需要使用list_project_layers工具来获取图层信息",
+  "plan": [
+    "调用list_project_layers工具获取工程中的图层列表"
+  ],
+  "tool_calls": [
+    {
+      "tool": "list_project_layers",
+      "args": {}
+    }
+  ]
+}
+2025-09-23 16:32:22 - GeoAssistant.Agent - INFO - [AI思考] 用户需要获取当前工程中的所有图层列表，这需要使用list_project_layers工具来获取图层信息
